@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
-import { db, fbCollection as collection, fbGetDocs as getDocs, fbDoc as doc, fbUpdateDoc as updateDoc, fbSetDoc as setDoc, fbQuery as query, fbOrderBy as orderBy, fbDeleteDoc as deleteDoc, fbGetDoc as getDoc } from '../../config/firebase';
+import { db, fbCollection as collection, fbGetDocs as getDocs, fbDoc as doc, fbUpdateDoc as updateDoc, fbSetDoc as setDoc, fbDeleteDoc as deleteDoc, fbGetDoc as getDoc } from '../../config/firebase';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, ResponsiveContainer } from 'recharts';
-import { Users, IndianRupee, BookOpen, AlertCircle, LogOut, Lock, Unlock, Plus, Trash2, Mail, Menu, X, Settings } from 'lucide-react';
+import { Users, IndianRupee, BookOpen, AlertCircle, LogOut, Lock, Plus, Trash2, Mail, Menu, X, Settings } from 'lucide-react';
 
 import CourseBuilder from '../../components/admin/CourseBuilder';
 

@@ -28,14 +28,7 @@ const LandingPage = () => {
     }
   };
 
-  const handleAuthAction = async () => {
-    if (user) {
-      await logout();
-      navigate('/');
-    } else {
-      navigate('/login');
-    }
-  };
+
 
   return (
     <div className="relative min-h-screen overflow-x-hidden font-body-md text-body-md antialiased selection:bg-primary-container selection:text-on-primary-container text-[#d8e2ff] dark">

@@ -1,6 +1,6 @@
 import React from 'react';
+
 import { Link } from 'react-router-dom';
-import { BookOpen } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 
 const Footer = () => {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
-import { User, Clock, ChevronLeft, LogOut, Award, Eye, EyeOff, ShieldAlert, KeyRound, AlertCircle, CheckCircle, X, Trash2, Edit3, Mail } from 'lucide-react';
+import { Clock, ChevronLeft, LogOut, Award, Eye, EyeOff, ShieldAlert, KeyRound, AlertCircle, CheckCircle, X, Trash2, Edit3, Mail } from 'lucide-react';
 import { fbReauthenticate, fbUpdatePassword, fbDeleteUser, db, fbDoc as doc, fbDeleteDoc } from '../../config/firebase';
 import Footer from '../../components/layout/Footer';
 
