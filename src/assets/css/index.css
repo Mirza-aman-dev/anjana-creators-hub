@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased text-gray-900 bg-gray-50;
+  }
+}
+
+/* Stitch Custom CSS */
+.glass-panel {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom right, rgba(255,255,255,0.1), rgba(255,255,255,0)) 1;
+    box-shadow: inset 1px 1px 0px 0px rgba(255,255,255,0.05);
+}
+
+.text-gradient-brand {
+    background: linear-gradient(90deg, #124af0, #ddb7ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.btn-high-gloss {
+    background: linear-gradient(135deg, #124af0, #ddb7ff);
+    box-shadow: 0 4px 15px rgba(18, 74, 240, 0.4), inset 0 1px 0 rgba(255,255,255,0.2);
+    transition: all 0.3s ease;
+}
+.btn-high-gloss:hover {
+    box-shadow: 0 6px 20px rgba(221, 183, 255, 0.6), inset 0 1px 0 rgba(255,255,255,0.3);
+    transform: scale(1.02);
+}
+
+.icon-3d {
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5));
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}

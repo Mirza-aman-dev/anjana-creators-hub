@@ -1,0 +1,170 @@
+export const translations = {
+    eng: {
+        // Navigation / Shared
+        contactUs: "Contact Us",
+        terms: "Terms & Conditions",
+        privacy: "Privacy Policy",
+        refund: "Refund Policy",
+        login: "Log in",
+        logout: "Sign Out",
+        admin: "Admin",
+        myProfile: "My Profile",
+
+        // Landing Page
+        heroBadge: "Learn • Create • Grow • Monetize 🚀",
+        heroTitle1: "Master Facebook",
+        heroTitle2: "Content Monetization",
+        heroSubtitle: "Welcome to Anjana Prince Creators Hub, your ultimate guide to the CM Tool. We provide updated tips, step-by-step strategies, and guidance to make Facebook monetization simple and accessible for everyone.",
+        priceTag: "499 /- 3 months",
+        heroButton: "Access Premium Courses",
+        featuresTitle: "Why Choose AnjanaHub?",
+        f1Title: "Basics of Profile & Page Setup",
+        f1Desc: "Learn how to optimize your profile and pages for maximum reach.",
+        f2Title: "Creator Tools",
+        f2Desc: "Master the essential tools every Facebook creator needs.",
+        f3Title: "Growth & Monetization",
+        f3Desc: "Discover proven strategies to grow your audience and earn revenue.",
+        f4Title: "Copyright & Content Policies",
+        f4Desc: "Navigate Facebook's guidelines to keep your content safe and compliant.",
+
+        // Footer
+        footerDesc: "Facebook monetisation and content creation. Master Your Digital Presence with Facebook Tools",
+        legalSupport: "Legal & Support",
+        regOffice: "Registered Office",
+        allRights: "All rights reserved.",
+        ownedBy: "Owned by Anjana Prince (Anjana Ap)",
+
+        // Course/Student Portal
+        yourCourses: "Your Courses",
+        searchCourses: "Search courses...",
+        noCoursesFound: "No courses found",
+        noCoursesDesc: "Try adjusting your search or category filters.",
+        startLearning: "Start Learning",
+        daysLeft: "days left",
+        subscription: "Subscription",
+
+        // Auth
+        createAccount: "Create an account",
+        logInAccount: "Log in to your account",
+        fullName: "Full Name",
+        email: "Email Address",
+        password: "Password",
+        forgotPassword: "Forgot password?",
+        signUpMsg: "Join thousands of developers mastering modern tech stacks with our premium, project-based courses.",
+        loginMsg: "Access your premium courses, pick up where you left off, and continue building amazing things.",
+        alreadyHave: "Already have an account?",
+        dontHave: "Don't have an account?",
+        signUp: "Sign up",
+
+        // Course Room
+        curriculum: "Curriculum",
+        courseCurriculum: "Course Curriculum",
+        back: "Back",
+        completeLesson: "Complete Lesson & Continue",
+        chapterCompleted: "Chapter completed",
+        markAsRead: "Mark as Read",
+        knowledgeCheck: "Knowledge Check",
+        passMark: "Pass Mark:",
+        excellentWork: "Excellent Work!",
+        notQuiteThere: "Not Quite There",
+        youScored: "You scored",
+        outOf: "out of",
+        retakeQuiz: "Retake Quiz",
+        continueJourney: "Continue Journey",
+        points: "Points",
+        submitAnswers: "Submit Answers",
+        welcomeTo: "Welcome to",
+        selectChapter: "Select a chapter from the curriculum sidebar to begin.",
+        noContent: "*No content provided for this lesson.*",
+        
+        // Dynamic / Types
+        video: "Video",
+        notes: "Notes",
+        quiz: "Quiz",
+        "HOW TO CHANGE THE NAME OF FACEBOOK": "How to change the name of Facebook"
+    },
+    mal: {
+        // Navigation / Shared
+        contactUs: "ബന്ധപ്പെടുക",
+        terms: "നിബന്ധനകൾ",
+        privacy: "സ്വകാര്യതാ നയം",
+        refund: "റീഫണ്ട് നയം",
+        login: "ലോഗിൻ",
+        logout: "പുറത്തുകടക്കുക",
+        admin: "അഡ്മിൻ",
+        myProfile: "എന്റെ പ്രൊഫൈൽ",
+
+        // Landing Page
+        heroBadge: "Learn • Create • Grow • Monetize 🚀",
+        heroTitle1: "മാസ്റ്റർ ഫേസ്ബുക്ക്",
+        heroTitle2: "കണ്ടന്റ് മോണിറ്റൈസേഷൻ",
+        heroSubtitle: "ഫേസ്ബുക്ക് CM ടൂളിലൂടെ എങ്ങനെ വരുമാനം ഉണ്ടാക്കാമെന്ന് എളുപ്പത്തിൽ പഠിക്കാൻ അഞ്ജന പ്രിൻസ് ക്രിയേറ്റേഴ്‌സ് ഹബ്ബിലേക്ക് സ്വാഗതം. ഫേസ്ബുക്ക് മോണിറ്റൈസേഷൻ എല്ലാവർക്കും ലളിതമാക്കാൻ ലക്ഷ്യമിട്ടുള്ള മികച്ച മാർഗനിർദ്ദേശങ്ങൾ ഇവിടെ ലഭ്യമാണ്.",
+        priceTag: "499 /- 3 months",
+        heroButton: "കോഴ്‌സുകൾ കാണുക",
+        featuresTitle: "എന്തുകൊണ്ട് AnjanaHub?",
+        f1Title: "പ്രൊഫൈൽ & പേജ് സെറ്റപ്പ്",
+        f1Desc: "മികച്ച റീച്ചിനായി പ്രൊഫൈലും പേജും എങ്ങനെ ഒപ്റ്റിമൈസ് ചെയ്യാമെന്ന് പഠിക്കുക.",
+        f2Title: "ക്രിയേറ്റർ ടൂളുകൾ",
+        f2Desc: "ഫേസ്ബുക്ക് ക്രിയേറ്റർമാർക്ക് ആവശ്യമായ ടൂളുകൾ എങ്ങനെ ഉപയോഗിക്കാമെന്ന് മനസ്സിലാക്കുക.",
+        f3Title: "വളർച്ചയും മോണിറ്റൈസേഷനും",
+        f3Desc: "നിങ്ങളുടെ ഫോളോവേഴ്സിനെ വർദ്ധിപ്പിക്കാനും വരുമാനം ഉണ്ടാക്കാനുമുള്ള തന്ത്രങ്ങൾ.",
+        f4Title: "പകർപ്പവകാശവും പോളിസികളും",
+        f4Desc: "ഫേസ്ബുക്ക് നിയമങ്ങൾ പാലിച്ച് നിങ്ങളുടെ കണ്ടന്റ് സുരക്ഷിതമായി നിലനിർത്തുക.",
+
+        // Footer
+        footerDesc: "Facebook monetisation and content creation. Master Your Digital Presence with Facebook Tools",
+        legalSupport: "സഹായം",
+        regOffice: "ഓഫീസ് വിലാസം",
+        allRights: "എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം.",
+        ownedBy: "ഉടമസ്ഥത: അഞ്ജന പ്രിൻസ് (Anjana Ap)",
+
+        // Course/Student Portal
+        yourCourses: "നിങ്ങളുടെ കോഴ്‌സുകൾ",
+        searchCourses: "കോഴ്‌സുകൾ തിരയുക...",
+        noCoursesFound: "കോഴ്‌സുകൾ ലഭ്യമല്ല",
+        noCoursesDesc: "തിരയൽ വിവരങ്ങൾ മാറ്റാൻ ശ്രമിക്കുക.",
+        startLearning: "പഠിക്കാൻ തുടങ്ങുക",
+        daysLeft: "ദിവസങ്ങൾ ബാക്കി",
+        subscription: "സബ്‌സ്‌ക്രിപ്‌ഷൻ",
+
+        // Auth
+        createAccount: "പുതിയ അക്കൗണ്ട് തുടങ്ങുക",
+        logInAccount: "നിങ്ങളുടെ അക്കൗണ്ടിൽ കയറുക",
+        fullName: "മുഴുവൻ പേര്",
+        email: "ഇമെയിൽ വിലാസം",
+        password: "പാസ്‌വേഡ്",
+        forgotPassword: "പാസ്‌വേഡ് മറന്നോ?",
+        signUpMsg: "ഞങ്ങളുടെ മികച്ച പ്രൊജക്റ്റ് അടിസ്ഥാനമാക്കിയുള്ള കോഴ്‌സുകൾക്കൊപ്പം പഠനം തുടങ്ങുക.",
+        loginMsg: "നിങ്ങളുടെ കോഴ്‌സുകൾ കണ്ട് പഠനം തുടരുക.",
+        alreadyHave: "അക്കൗണ്ട് ഉണ്ടോ?",
+        dontHave: "അക്കൗണ്ട് ഇല്ലേ?",
+        signUp: "സൈൻ അപ്പ്",
+
+        // Course Room
+        curriculum: "പാഠ്യപദ്ധതി",
+        courseCurriculum: "കോഴ്‌സ് പാഠ്യപദ്ധതി",
+        back: "പുറകോട്ട്",
+        completeLesson: "പഠിച്ചു പൂർത്തിയാക്കി മുന്നോട്ട് പോവുക",
+        chapterCompleted: "പഠിച്ചു പൂർത്തിയാക്കി",
+        markAsRead: "വായിച്ചു തീർത്തു",
+        knowledgeCheck: "ചോദ്യോത്തരങ്ങൾ",
+        passMark: "പാസ്സ് മാർക്ക്:",
+        excellentWork: "മികച്ച പ്രകടനം!",
+        notQuiteThere: "ശ്രമിച്ചാൽ കുറച്ചുകൂടി നന്നായി ചെയ്യാം",
+        youScored: "നിങ്ങൾക്ക് ലഭിച്ച മാർക്ക്",
+        outOf: "ഇതിൽ",
+        retakeQuiz: "വീണ്ടും ശ്രമിക്കുക",
+        continueJourney: "പഠനം തുടരുക",
+        points: "പോയിന്റുകൾ",
+        submitAnswers: "ഉത്തരങ്ങൾ സമർപ്പിക്കുക",
+        welcomeTo: "സ്വാഗതം",
+        selectChapter: "പഠനം തുടങ്ങാൻ സൈഡ്‌ബാറിൽ നിന്നും പാഠം തിരഞ്ഞെടുക്കുക.",
+        noContent: "*ഈ പാഠത്തിന് നോട്ടുകൾ ലഭ്യമല്ല.*",
+        
+        // Dynamic / Types
+        video: "വീഡിയോ",
+        notes: "നോട്ട്സ്",
+        quiz: "ക്വിസ്",
+        "HOW TO CHANGE THE NAME OF FACEBOOK": "ഫേസ്ബുക്കിലെ പേര് എങ്ങനെ മാറ്റാം"
+    }
+};
