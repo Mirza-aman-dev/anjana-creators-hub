@@ -177,6 +177,10 @@ export const AuthProvider = ({ children }) => {
 
   const logout = async () => {
     localStorage.removeItem('mock_user_admin_mock_uid');
+    setUser(null);
+    setRole(null);
+    setSubscription(null);
+    setIsLocked(false);
     return logOut();
   };
 
