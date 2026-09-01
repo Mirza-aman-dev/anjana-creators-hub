@@ -31,6 +31,13 @@ const PricingPage = () => {
     };
   }, []);
 
+  // Redirect subscribed users away from pricing page
+  useEffect(() => {
+    if (user && !isLocked && user.role !== 'admin') {
+      navigate('/courses', { replace: true });
+    }
+  }, [user, isLocked, navigate]);
+
   const handleRazorpayPayment = async () => {
     setLoading(true);
 
